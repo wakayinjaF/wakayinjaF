@@ -39,6 +39,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                   </li>
+                      <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
                   <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                   </li> -->
@@ -96,9 +99,10 @@
             Developed and maintained by <h6>Wakayinja Frank</h6>
           </div>
           <div class="col-sm-4">
-            Column 2 <br>
+            <h6>OverView</h6> <br>
             Home <br>
             About <br>
+            Project <br>
           </div>
           <div class="col-sm-4">
             <h6>Contact me</h6>
@@ -115,4 +119,30 @@
       </div>
   </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>     
+        //get a reference to the button and the target section
+      const contactButton =document.getElementById("contactButton");
+      const contactSection = document.getElementById("contact");
+
+      // add an event listener to the button
+      contactButton.addEventListener("click", function() {
+
+        // scroll to the section when the button is clicked
+        contactSection.scrollIntoView({behavior: "smooth"});
+      });
+
+      // Smooth scrolling for anchor links in the navbar
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1); // Get the target section ID
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+});
+</script>
 </html>
