@@ -3,6 +3,10 @@
 - 🌱 I’m currently learning Development at a bachelors degree
 - 💞️ I’m looking forward to collaborating with fellow developers and many more people
 - 📫 How to reach me is through LinkedIn, twitter, instagram and youtube.
+- My work is below; 
+- https://final-project-omega-tan.vercel.app/
+- https://github.com/wakayinjaF/final-project
+- 
 
 <!---
 WakayinjaF/wakayinjaF is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
