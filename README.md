@@ -6,7 +6,10 @@
 - My work is below; 
 - https://final-project-omega-tan.vercel.app/
 - https://github.com/wakayinjaF/final-project
-- 
+- https://wakayinjaf.github.io/kyrus.github.io/
+- https://wakayinjaf.github.io/Klaus.github.io/ 
+  
+
 
 <!---
 WakayinjaF/wakayinjaF is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
