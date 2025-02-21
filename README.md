@@ -7,6 +7,7 @@
 - https://final-project-omega-tan.vercel.app/
 - https://github.com/wakayinjaF/final-project
 - https://wakayinjaf.github.io/kyrus.github.io/
+- https://wakayinjaf.github.io/school.github.io/
 - https://wakayinjaf.github.io/Klaus.github.io/ 
   
 
